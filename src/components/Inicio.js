@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Inicio() {
+const Inicio = () => {
     return (
         <div>
             <h1>Inicio</h1>
@@ -10,3 +10,5 @@ export default function Inicio() {
         </div>
     );
 }
+
+export default (Inicio);

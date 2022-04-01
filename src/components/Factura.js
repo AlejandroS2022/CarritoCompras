@@ -1,6 +1,6 @@
 import React from "react";
-import styled from "styled-components";
 import { connect } from "react-redux";
+import { Producto, NombreProducto } from "../style/styled-component";
 
 const Factura = ({ carrito }) => {
     console.log(carrito);
@@ -30,18 +30,6 @@ const Factura = ({ carrito }) => {
         </>
     );
 };
-
-const Producto = styled.div`
-    padding: 10px;
-    border-bottom: 1px solid #ebebf3;
-    font-size: 14px;
-`;
-
-const NombreProducto = styled.p`
-    font-weight_bold;
-    font-size: 16px;
-    color: #000;
-`;
 
 const globalProps = estado => {
     return {

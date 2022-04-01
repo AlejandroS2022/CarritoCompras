@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Error404() {
+const Error404 = () => {
     return (
         <div>
             <h1>Error404</h1>
@@ -10,3 +10,5 @@ export default function Error404() {
         </div>
     );
 }
+
+export default (Error404);

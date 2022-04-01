@@ -1,7 +1,7 @@
 import React from "react";
 import Productos from './Productos'
 
-export default function Tienda() {
+const Tienda = () => {
     return (
         <div>
             <h1>Tienda</h1>
@@ -9,3 +9,5 @@ export default function Tienda() {
         </div>
     );
 }
+
+export default (Tienda);
