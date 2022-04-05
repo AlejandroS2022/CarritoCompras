@@ -1,4 +1,6 @@
-A simple cart app using React, Redux
+# Overview of the Project
+
+A simple cart app using React and Redux.
 
 # Getting Started with Create React App
 
